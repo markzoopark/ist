@@ -1,0 +1,15 @@
+<script language="JavaScript"> 
+if (top.location.search=="") { 
+pass = prompt('Внимание! Станица содержит материалы категории Для Взрослых. Для получения пароля обратитесь к администратору сайта. Введите пароль'); 
+if (pass=='1342') // Ваш пароль акивации 
+{ alert('Пароль принят') } else { alert('Пароль непринят!'), top.location.href="errorpas.htm" }
+}; 
+</script>
+
+<script>
+var pass = prompt("Enter the Password:", "");
+if (pass == null)  window.location = "wrong.html";
+else if (pass.toLowerCase() == "1234")  
+      window.location = "index.html";
+else  window.location = "wrong.html";
+</script>
